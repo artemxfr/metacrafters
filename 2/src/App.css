@@ -1,0 +1,73 @@
+.App {
+    text-align: center;
+    min-width: 80vw;
+    min-height: 100vh;
+    background-color: #282c34;
+}
+
+p,
+table {
+    font-size: 1rem;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+button {
+    background-color: #2e3032;
+    color: white;
+    height: 30px;
+}
+
+input {
+    height: 30px;
+}
+
+.createjob {
+    padding-bottom: 5%;
+}
+
+.createjob input {
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.createjob p {
+    margin-bottom: 0px;
+    font-size: 1rem;
+}
+
+.createjob button {
+    background-color: green;
+}
